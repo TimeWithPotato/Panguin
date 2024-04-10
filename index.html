@@ -15,6 +15,7 @@
             clifford: '#da373d',
             header_bg: '#FFFBF0',
             card_bg: '#F1F1F1',
+            main_bg: '#E5E5E5',
           }
         }
       }
@@ -55,10 +56,10 @@
       </div>
     </section>
   </header>
-  <main class="container pl-8 sm:pl-60">
-    <section class="ml-0 mt-24">
+  <main class="container pl-8 sm:pl-36 bg-main_bg">
+    <section class="ml-0 mt-24 sm:pl-0">
       <h2 class="text-4xl font-semibold uppercase">Women Jacket</h2>
-      <article class=" grid grid-cols-1 sm:grid-cols-3">
+      <article class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <!-- Jacket-1 -->
         <div class="w-80 shadow-lg rounded-2xl">
           <div class="p-2">
@@ -70,7 +71,7 @@
             <h2 class="text-2xl font-bold">Yellow Coat Jacket</h2>
             <p>Lorem Ipsum is simply dummy text of the <br>
               printing and typesetting industry.</p>
-            <div class="flex justify-between items-center my-5">
+            <div class="flex justify-evenly items-center my-5">
               <h2 class="text-2xl font-extrabold">$234</h2>
               <button
                 class="uppercase robot-medium bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white font-semibold rounded-lg py-5 px-10 my-2"
@@ -139,9 +140,9 @@
         </div>
       </article>
     </section>
-    <section class="ml-0 mt-24">
+    <section class="ml-0 mt-24 sm:pl-0">
       <h2 class="text-4xl font-semibold uppercase">Man Jacket</h2>
-      <article class=" grid grid-cols-1 sm:grid-cols-3">
+      <article class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <!-- Jacket-4 -->
         <div class="w-80 shadow-lg rounded-2xl">
           <div class="p-2">
@@ -221,6 +222,46 @@
           </div>
         </div>
       </article>
+    </section>
+
+    <!-- Extraas -->
+
+    <section class="ml-0 mt-24 sm:pl-0">
+      <div class="grid grid-cols-2 mr-32">
+        <div class="h-32 bg-white m-3 rounded-xl shadow-lg">
+          <div class="flex justify-evenly my-5">
+            <img class="w-20 h-20" src="icons/house.png" alt="">
+            <div>
+              <h2 class="text-4xl font-bold">Find the Perfect Fit</h2>
+              <p>Everybody is different, which is why we <br>
+                offer styles for every body.</p>
+            </div>
+          </div>
+        </div>
+        <div class="m-3 row-span-3">
+          <img class="my-10" src="images/shopping.png" alt="">
+        </div>
+        <div class="h-32 bg-white m-3 rounded-xl shadow-lg">
+          <div class="flex justify-evenly my-5 mr-10">
+            <img class="w-20 h-20" src="icons/box.png" alt="">
+            <div>
+              <h2 class="text-4xl font-bold">Free Exchanges</h2>
+              <p>One of the many reasons you can shop <br>
+                with peace of mind.</p>
+            </div>
+          </div>
+        </div>
+        <div class="h-32 bg-white m-3 rounded-xl shadow-lg">
+          <div class="flex justify-evenly my-5">
+            <img class="w-20 h-20" src="icons/question.png" alt="">
+            <div>
+              <h2 class="text-4xl font-bold">Contact Our Seller</h2>
+              <p>They are here to help you. That's quite <br>
+                literally what we pay them for.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 </body>
